@@ -41,8 +41,8 @@ class MyFrame(tk.Frame):
            self.b.configure(text="show date")
         else:
             self.b.configure(text="hide date")
-            self.show_date = not self.show_date
-            self.toggled = True
+        self.show_date = not self.show_date
+        self.toggled = True
         
     # 変化する画面の描画
     def display(self):
